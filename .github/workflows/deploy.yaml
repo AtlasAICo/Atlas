@@ -39,4 +39,4 @@ jobs:
 
       - name: Start Application on EC2
         run: |
-          echo "hello"
+          sudo ssh -i deploy_key -o StrictHostKeyChecking=no ubuntu@35.174.35.195 "sudo nohup serve -p 3000 /home/ubuntu/atlas-website2 > /dev/null 2>&1 &"
