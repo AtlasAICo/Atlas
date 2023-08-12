@@ -38,4 +38,4 @@ jobs:
 
       - name: Start Application on EC2
         run: |
-        echo "hello"
+          echo "hello"
