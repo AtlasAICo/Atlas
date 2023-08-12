@@ -34,8 +34,8 @@ jobs:
       # This step copies files to a temporary directory and then moves them to the target location
       - name: Deploy to EC2
         run: |
-          sudo scp -i deploy_key -o StrictHostKeyChecking=no -r ./dist/* ubuntu@35.174.35.195:/var/www/html/atlas-website2
+          echo *"sudo scp -i deploy_key -o StrictHostKeyChecking=no -r ./dist/* ubuntu@35.174.35.195:/var/www/html/atlas-website2"
 
       - name: Start Application on EC2
         run: |
-          sudo ssh -i deploy_key -o StrictHostKeyChecking=no ubuntu@35.174.35.195 "sudo nohup serve -p 3000 /home/ubuntu/atlas-website2 > /dev/null 2>&1 &"
+        echo "hello"
