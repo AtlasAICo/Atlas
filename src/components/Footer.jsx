@@ -1,5 +1,5 @@
-import React from "react";
-import "./Footer.css";
+import React from 'react'
+import './Footer.css'
 
 function Footer({ onOpen }) {
   return (
@@ -39,7 +39,6 @@ function Footer({ onOpen }) {
             <p className="shadow">
               <a href="mailto:contact@atlasco.ai">Contact Us</a>
             </p>
-            
           </div>
           <div>
             <p>
@@ -52,7 +51,7 @@ function Footer({ onOpen }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

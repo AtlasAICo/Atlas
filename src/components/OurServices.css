@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.our_services__div>h1 {
+.our_services__div > h1 {
   font-weight: 700;
   font-size: 40px;
 }
@@ -28,7 +28,7 @@
     align-items: center;
   }
 
-  .our_services__div>h1 {
+  .our_services__div > h1 {
     font-weight: 700;
     font-size: 40px;
   }

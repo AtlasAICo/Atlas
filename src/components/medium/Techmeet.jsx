@@ -1,5 +1,5 @@
-import React from "react";
-import "./medium.css";
+import React from 'react'
+import './medium.css'
 
 const TechMeet = () => {
   return (
@@ -8,7 +8,7 @@ const TechMeet = () => {
       <p>Data meets understanding.</p>
       <p>Business meets future.</p>
     </div>
-  );
-};
+  )
+}
 
-export default TechMeet;
+export default TechMeet

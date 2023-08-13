@@ -7,16 +7,27 @@
   justify-content: space-between;
   align-items: center;
   overflow-x: hidden;
+}
 
-
-
+.logoo {
+  display: flex;
+  width: 140px;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Space Grotesk", sans-serif;
+  color: white;
+}
+.svg {
+  fill: white; /* Change the fill color */
+  stroke: red; /* Change the stroke color */
+  stroke-width: 2; /* Adjust the stroke width if necessary */
 }
 
 .top_section_menubar_1 {
   height: 100%;
 }
 
-.top_section_menubar_1>img {
+.top_section_menubar_1 > img {
   height: 90%;
   /* border: 1px solid #000; */
   margin: auto;
@@ -36,7 +47,8 @@
 }
 
 .top_section_menubar_2_button1 {
-  color: #333333;
+  color: white;
+
   /* border: 1px solid #000; */
 }
 
@@ -45,4 +57,5 @@
   color: #ffff;
 }
 
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+}

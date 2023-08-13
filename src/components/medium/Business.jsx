@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react'
 
 const Business = () => {
   return (
     <div className="business">
       <div className="border-bottom"></div>
-      <div className="business_headig" style={{marginTop:"60px"}}>
+      <div className="business_headig" style={{ marginTop: '60px' }}>
         <h2>Business.</h2>
         <h2>Supercharged.</h2>
       </div>
@@ -23,7 +23,7 @@ const Business = () => {
         </p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Business;
+export default Business
