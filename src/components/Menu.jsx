@@ -23,7 +23,7 @@ const Menu = ({ onOpen }) => {
           Jobs/Careers
         </button> */}
         <button className="top_section_menubar_2_button2" onClick={onOpen}>
-          Join our newsletter
+          Join our Newsletter
         </button>
       </div>
     </div>

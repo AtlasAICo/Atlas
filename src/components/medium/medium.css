@@ -81,13 +81,14 @@ body, h1, h2, h3, p {
 
 /* Apply styles to the hero section */
 .services {
-  height: 200vh;
+  height: 100vh;
   padding: 50px;
   /* margin-top: -80px; */
   /* margin-bottom: 20px; */
-  background-image: url('https://i.ibb.co/pjZrt7F/Adobe-Stock-628738376-1.png');
+  background-image: url('../../assets/ball1.png');
   background-size: cover;
-  background-position: center;
+  background-position:center;
+  background-repeat: no-repeat;
   /* color: white; */
   text-align: center;
   .our_services_heading{
@@ -114,7 +115,7 @@ body, h1, h2, h3, p {
   column-gap: 3rem;
   /* border: 2px solid red; */
   position: relative;
-  top: 70%;
+  top: 40%;
   
   /* margin-bottom: 10px; */
 
@@ -172,11 +173,12 @@ body, h1, h2, h3, p {
   }
 
   .business {
+   
     display: flex;
     flex-direction: column;
     row-gap: 2.4rem;
     padding: 10vh 10vw;
-    margin-top: -62px;
+    /* margin-top: -62px; */
 
     .border-bottom {
       border-bottom: 1px solid #e3e3e3;
@@ -185,6 +187,7 @@ body, h1, h2, h3, p {
 
     /* border: 5px solid gray; */
     .business_headig {
+      background: white;
       font-size: 1.5rem;
       font-weight: 700;
       width: 80vw;

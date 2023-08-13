@@ -4,7 +4,7 @@ const Business = () => {
   return (
     <div className="business">
       <div className="border-bottom"></div>
-      <div className="business_headig">
+      <div className="business_headig" style={{marginTop:"60px"}}>
         <h2>Business.</h2>
         <h2>Supercharged.</h2>
       </div>
