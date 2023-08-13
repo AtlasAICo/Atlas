@@ -13,7 +13,7 @@ function Footer({ onOpen }) {
           </p>
         </div>
         <button className="newsletter_button" onClick={onOpen}>
-          Join Our newsletter
+          Join Our Newsletter
         </button>
       </div>
       <div className="border"></div>

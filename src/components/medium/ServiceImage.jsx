@@ -25,13 +25,15 @@ const imageData = [
 const ServicesImage = () => {
   return (
     <div className="services">
+    <h1 className="our_services_heading">Our Services</h1>
       <div className="services_cards">
+     
         {imageData.map(({ id, title, image, desc }) => {
           return (
             <div key={id} className="services_card">
-              <div className="image">
+              {/* <div className="image">
                 <img src={image} alt={title} />
-              </div>
+              </div> */}
               <div className="services_text">
                 <p className="title">{title.toLocaleUpperCase()}</p>
                 <p className="desc">{desc}</p>

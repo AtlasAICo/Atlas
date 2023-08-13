@@ -10,9 +10,9 @@ const Medium = () => {
     <div>
       <Business />
       <TechMeet />
-      <div className="our_services__section">
+    {/*   <div className="our_services__section">
         <OurServices />
-      </div>
+      </div> */}
       <ServicesImage />
     </div>
   );
