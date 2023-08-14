@@ -1,7 +1,8 @@
-import React from 'react'
-import Image1 from '../../assets/Image Placeholder.png'
-import Image2 from '../../assets/Image Placeholder (1).png'
-import Image3 from '../../assets/Image Placeholder (2).png'
+import React from 'react';
+import "./serviceImage.css"
+import Image1 from '../../../assets/Image Placeholder.png'
+import Image2 from '../../../assets/Image Placeholder (1).png'
+import Image3 from '../../../assets/Image Placeholder (2).png'
 const imageData = [
   {
     id: 1,
@@ -27,8 +28,8 @@ const imageData = [
 ]
 const ServicesImage = () => {
   return (
-    <div className="services">
-      <h1 className="our_services_heading">Our Services</h1>
+    <div className="services" id="services" >
+      <h1 className="our_services_heading" >Service.</h1>
       <div className="services_cards">
         {imageData.map(({ id, title, image, desc }) => {
           return (

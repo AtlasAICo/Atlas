@@ -1,7 +1,7 @@
 import React from 'react'
 import Business from './Business'
 import TechMeet from './Techmeet.jsx'
-import ServicesImage from './ServiceImage.jsx'
+import ServicesImage from './ourService/ServiceImage'
 import './medium.css'
 import OurServices from '../OurServices'
 

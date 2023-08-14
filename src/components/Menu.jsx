@@ -48,7 +48,7 @@ const Menu = ({ onOpen }) => {
       
       <div className="top_section_menubar_2">
         <button className="top_section_menubar_2_button1">
-          <Link to="our_services__div" smooth={true} duration={500}>
+          <Link to="services" smooth={true} duration={500}>
             Our Services
           </Link>
         </button>
